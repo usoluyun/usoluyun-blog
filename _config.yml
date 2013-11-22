@@ -3,16 +3,16 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: coaching life 
+subtitle: 山寨垒球教练的人生轨迹
 description:
-author: John Doe
-email:
-language:
+author: usoluyun 
+email: usoluyun@gmail.com
+language: zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://usoluyun.github.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -79,5 +79,6 @@ exclude_generator:
 
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deploy.html
-deploy:
-  type:
+deploy: 
+  type: github
+  repository: https://github.com/usoluyun/usoluyun.github.com.git
